@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/cropsey",
     "maintainers": [
       {
@@ -16,72 +16,127 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "cropsey",
-    "name": "Cropsey: The Staten Island Boogeyman",
-    "aliases": [],
+    "name": "Cropsey",
+    "aliases": [
+      { "name": "The Cropsey Maniac", "region": "New York, USA" },
+      { "name": "The Staten Island Boogeyman", "region": "Staten Island, New York, USA" }
+    ],
     "category": "URBAN_LEGEND",
-    "subcategory": "found in cultures worldwide:",
+    "subcategory": "Boogeyman / true crime convergence",
     "tags": [
-      "folklore",
-      "mythology"
+      "urban-legend",
+      "boogeyman",
+      "new-york",
+      "staten-island",
+      "true-crime",
+      "willowbrook",
+      "serial-killer",
+      "campfire-story",
+      "ostension"
     ],
     "status": "documented",
     "description": {
-      "summary": "Cropsey is one of New York's most chilling urban legends—a boogeyman figure who allegedly haunted the abandoned buildings and woods of Staten Island, kidnapping and murdering children.",
-      "full": "Cropsey is one of New York's most chilling urban legends—a boogeyman figure who allegedly haunted the abandoned buildings and woods of Staten Island, kidnapping and murdering children. For decades, Cropsey existed purely as campfire horror story fodder, a cautionary tale parents told to keep children from wandering into dangerous places. But in the 1970s and 1980s, the legend took a dark turn when a series of real child disappearances on Staten Island led authorities to Andre Rand, a former custodian at the notorious Willowbrook State School for the mentally disabled. The convergence of urban legend and actual crime created a unique and disturbing case study in how folklore can both predict and shape real-world events. The Cropsey legend influenced how investigators, media, and the public understood the disappearances, while the real crimes reinforced and amplified the legend itself. This phenomenon, known as \\\"ostension\\\" in folklore studies, demonstrates the complex relationship between myth and reality."
+      "summary": "Cropsey is a New York urban legend about a boogeyman figure — originally an escaped mental patient from the abandoned Willowbrook State School — who haunted Staten Island and kidnapped children, later converging with the real crimes of convicted child kidnapper Andre Rand.",
+      "full": "Cropsey is one of New York's most enduring urban legends, a boogeyman figure that originated as a campfire story told to keep children away from the abandoned buildings of the Willowbrook State School on Staten Island. In the legend, Cropsey is a deranged escaped patient or disgruntled former employee — sometimes described with a hook for a hand, other times with a bloody axe — who lurks in the tunnels and woods around Willowbrook, abducting children. For decades this was pure folklore. But beginning in the 1970s, a series of real child disappearances on Staten Island, culminating in the 1987 case of Jennifer Schweiger, led investigators to Andre Rand (born Frank Rostum Rushan), a former custodian and aide at Willowbrook who had been living in a campsite on the abandoned grounds. Rand was convicted in 1988 of the first-degree kidnapping of Jennifer Schweiger, and again in 2004 for the kidnapping of Holly Ann Hughes. He is suspected in at least six other disappearances. The convergence of folklore and real crime — termed 'ostension' by folklorists — created a uniquely disturbing case in which the urban legend appeared to have a real-world referent. The 2009 documentary Cropsey, directed by Joshua Zeman and Barbara Brancaccio, explored this intersection."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "New York regional urban legend tradition; the precise origin of the name 'Cropsey' is not documented",
+      "meaning": "Name of the legendary boogeyman figure; possibly derived from a surname common in the New York area",
+      "first_use": "Oral tradition; circulating by at least the 1960s–1970s in New York area summer camps and schools"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "URBAN_LEGEND",
-      "type": "found in cultures worldwide:",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Boogeyman",
+      "subtype": "True crime convergence / ostension",
+      "variant": "New York / Staten Island"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "slenderman", "name": "Slender Man", "relationship": "similar", "description": "Another boogeyman figure who preys on children; originated as internet folklore" },
+      { "id": "hook-man", "name": "The Hook", "relationship": "similar", "description": "Classic American urban legend of a hook-handed killer stalking teenagers" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Hook for a hand", "description": "In one variant of the legend, Cropsey has a hook in place of a hand", "frequency": "occasional" },
+        { "feature": "Bloody axe", "description": "In another variant, Cropsey carries a bloody axe", "frequency": "occasional" },
+        { "feature": "Escaped patient appearance", "description": "Described as a disheveled former mental patient or disgruntled Willowbrook employee", "frequency": "common" }
+      ],
+      "morphology": "As a folklore figure, Cropsey has no fixed physical form; descriptions vary by teller. The real-world associated individual, Andre Rand, was a regular-appearing adult male."
     },
     "abilities": [],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["abandoned buildings", "tunnels", "wooded areas near Willowbrook State School", "Staten Island"],
+      "diet": "Not applicable (folklore figure)",
+      "patterns": [
+        "Lurks in abandoned buildings and underground tunnels of the Willowbrook grounds",
+        "Abducts children who wander into forbidden areas",
+        "Described as hunting at night"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "The Cropsey legend is centered on Staten Island, New York, and is also found in upstate New York summer camp traditions. It is primarily a New York regional legend.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Staten Island, New York", "Upstate New York", "New York City"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Willowbrook State School (Staten Island Developmental Center)",
+        "location": {
+          "description": "Abandoned grounds of the former Willowbrook State School, Staten Island",
+          "country": "United States",
+          "region": "New York",
+          "coordinates": { "latitude": 40.6023, "longitude": -74.1502 }
+        },
+        "notes": "The central setting of the Cropsey legend and the location where Andre Rand camped and where Jennifer Schweiger's body was found nearby"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1960-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Oral tradition; circulating in New York area summer camps by at least the 1960s"
+      },
+      "peak_activity_periods": [
+        { "period": "1970s–1980s", "description": "Real child disappearances on Staten Island reinforced and intensified the legend" },
+        { "period": "2009", "description": "Documentary Cropsey (2009) brought national attention to the legend and its real-crime connection" }
+      ],
+      "seasonal_patterns": "The legend circulates particularly in summer camp and school contexts."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "New York regional oral tradition; a form of the widespread 'dangerous stranger' / boogeyman legend type used to warn children away from hazardous abandoned spaces.",
+      "earliest_accounts": "The legend was circulating among children and teenagers in New York by at least the 1960s–1970s, associated specifically with the abandoned buildings and grounds of the Willowbrook State School on Staten Island.",
+      "folklore_connections": "Fits the broad category of boogeyman legends found worldwide; specifically related to the 'escaped mental patient' subtype of American urban legend that proliferated in the post-deinstitutionalization era."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1966-01-01", "event": "Andre Rand begins working at Willowbrook State School under the name Frank Bruchette, as custodian and physical therapy aide", "significance": "Establishes Rand's connection to the site central to the legend", "source": "Andre Rand Wikipedia article / Andre Rand court records" },
+      { "date": "1972-07-07", "event": "Alice Pereira, age 5, vanishes from Tysens Lane Apartments, Staten Island; Rand was working there as a painter. Never found.", "significance": "Earliest suspected Rand victim; never charged", "source": "Andre Rand Wikipedia article" },
+      { "date": "1981-07-15", "event": "Holly Ann Hughes, age 7, disappears near Richmond Terrace, Staten Island", "significance": "One of two cases for which Rand was convicted; her disappearance contributed to public panic", "source": "Andre Rand Wikipedia article" },
+      { "date": "1987-07-09", "event": "Jennifer Schweiger, age 12, disappears on Staten Island; her body found in a shallow grave near Willowbrook after a 35-day search", "significance": "The case that led to Rand's arrest and first conviction; anchor case linking real crime to legend", "source": "Andre Rand Wikipedia article" },
+      { "date": "1988-01-01", "event": "Andre Rand convicted of first-degree kidnapping of Jennifer Schweiger; sentenced to 25 years to life", "significance": "First conviction; the real-world Cropsey figure is identified and imprisoned", "source": "Andre Rand Wikipedia article" },
+      { "date": "2004-01-01", "event": "Rand convicted of first-degree kidnapping of Holly Ann Hughes; receives consecutive 25-years-to-life sentence", "significance": "Second conviction; parole eligibility set to 2037", "source": "Andre Rand Wikipedia article" },
+      { "date": "2009-01-01", "event": "Documentary Cropsey directed by Joshua Zeman and Barbara Brancaccio premieres at the Tribeca Film Festival", "significance": "Brings the legend and its real-crime convergence to national audience", "source": "Cropsey (film) Wikipedia article" }
+    ],
+    "modern_era": "The Cropsey case remains a studied example of 'ostension' — the folkloric process by which an urban legend is acted out in reality. Folklorists use it to examine how legends can shape perception of real criminal events and vice versa."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +147,103 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
-    "video": [],
+    "video": [
+      {
+        "id": "cropsey-documentary-2009",
+        "type": "documentary",
+        "name": "Cropsey (2009 documentary)",
+        "date": "2009",
+        "description": "Documentary film by Joshua Zeman and Barbara Brancaccio examining the Cropsey urban legend and its convergence with the crimes of Andre Rand.",
+        "status": "verified",
+        "analysis": "The documentary is a verified factual work documenting the legend and real criminal cases. It includes interviews with Rand's correspondents and families of missing children.",
+        "source": "Zeman, J. and Brancaccio, B. (2009), Cropsey"
+      }
+    ],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Ostension",
+        "description": "The Cropsey phenomenon exemplifies 'ostension' — the folkloric process in which a legend is acted out in reality. The pre-existing urban legend of a child-kidnapping monster at Willowbrook may have influenced how investigators and the public interpreted Rand's crimes, while the real crimes in turn reinforced and validated the legend.",
+        "proponents": ["Folklorists Linda Degh and Andrew Vazsonyi", "Joshua Zeman (Cropsey documentary)"],
+        "evidence_cited": ["Temporal overlap between legend circulation and real disappearances", "Willowbrook as the central setting of both legend and real crimes"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Legend predates but does not cause crime",
+        "description": "The Cropsey legend was a pre-existing campfire story that coincidentally shared a setting (Willowbrook) with Rand's crimes; the legend did not cause or predict the crimes, and Rand is not the 'real' Cropsey.",
+        "proponents": ["Critics of the documentary's narrative framing"],
+        "evidence_cited": ["Rand was convicted on evidence, not legend", "The legend exists in upstate New York camps without connection to Rand"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "New York summer camp boogeyman tradition",
+        "Staten Island oral legend tradition centered on Willowbrook",
+        "Upstate New York camp horror story tradition"
+      ],
+      "stories": [
+        "Cropsey lurks in the tunnels beneath Willowbrook, emerging at night to kidnap children who wander near the abandoned buildings",
+        "In some versions, Cropsey has a hook for a hand; in others he carries an axe",
+        "Children warned to stay away from the abandoned Willowbrook grounds were told Cropsey would take them"
+      ],
+      "beliefs": "Used as a cautionary tale to keep children away from the genuinely dangerous abandoned buildings of the former Willowbrook State School. The legend gained particular power because Willowbrook had a real history of documented abuse and neglect of mentally disabled residents (exposed by Geraldo Rivera's 1972 television report)."
     },
     "popular_culture": {
       "literature": [],
-      "film_tv": [],
+      "film_tv": [
+        "Cropsey (2009) — documentary by Joshua Zeman and Barbara Brancaccio, premiered at Tribeca Film Festival"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Discussed in academic folklore literature as an example of ostension"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Joshua Zeman", "affiliation": "Independent filmmaker", "contribution": "Directed the 2009 documentary Cropsey documenting the legend and its real-crime convergence", "period": "2009" },
+      { "name": "Barbara Brancaccio", "affiliation": "Independent filmmaker", "contribution": "Co-directed the 2009 documentary Cropsey", "period": "2009" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "The Cropsey case is discussed in folklore studies as a documented example of ostension."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "andre-rand-wikipedia",
+      "type": "website",
+      "title": "Andre Rand — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Andre_Rand",
+      "accessed": "2026-05-08"
+    },
+    {
+      "id": "cropsey-film-wikipedia",
+      "type": "website",
+      "title": "Cropsey (film) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cropsey_(film)",
+      "accessed": "2026-05-08"
+    },
+    {
+      "id": "cropsey-documentary",
+      "type": "documentary",
+      "title": "Cropsey",
+      "authors": ["Joshua Zeman", "Barbara Brancaccio"],
+      "date": "2009"
+    }
+  ]
 }
